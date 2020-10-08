@@ -1,4 +1,3 @@
-// const MissingParamError = require('../errors/missing-param-error')
 const { UnauthorizedError, ServerError } = require('../errors')
 
 module.exports = class HttpResponse {
