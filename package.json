@@ -17,15 +17,23 @@
       "jest"
     ]
   },
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "4.2.8"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
+    "@shelf/jest-mongodb": "^1.2.3",
     "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
     "husky": "^4.0.0-beta.5",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "lint-staged": "^9.5.0",
+    "mongodb-memory-server": "^6.9.2",
+    "mongodb-memory-server-core": "^6.9.2",
     "standard": "^14.3.1"
   },
   "dependencies": {
@@ -35,6 +43,7 @@
     "kind-of": ">=6.0.3",
     "lodash": ">=4.17.19",
     "minimist": ">=0.2.1",
+    "mongodb": "^3.6.3",
     "validator": "^13.1.17",
     "yargs-parser": ">=13.1.2"
   }
