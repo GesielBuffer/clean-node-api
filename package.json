@@ -4,8 +4,9 @@
   "description": "Construindo uma API Rest em NodeJs utilizando TDD, Clean Architecture e Design Patterns.",
   "author": "Geiso Buffer",
   "license": "ISC",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "scripts": {
+    "start": "node src/main/index.js",
     "test": "jest --silent --colors --noStackTrace --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
@@ -39,6 +40,7 @@
   "dependencies": {
     "acorn": ">=7.1.1",
     "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "kind-of": ">=6.0.3",
     "lodash": ">=4.17.19",
