@@ -45,7 +45,7 @@
     "jsonwebtoken": "^8.5.1",
     "kind-of": ">=6.0.3",
     "lodash": ">=4.17.19",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "mongodb": "^3.6.3",
     "validator": "^13.1.17",
     "yargs-parser": ">=13.1.2"
